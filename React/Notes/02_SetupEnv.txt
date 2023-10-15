@@ -1,0 +1,9 @@
+Let's create first React Application and Setup development environment-
+  - Node Installation
+  - Text Editor (VS Code)
+
+To create new React Application follow below mentioned commands-
+  - npx create-react-app applicationName
+  - To Run Application
+    - Navigate to application directory
+    - npm start
