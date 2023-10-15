@@ -1,0 +1,12 @@
+React Folder Structure-
+- node_modules
+  - node packages
+- public
+  - index.html
+- src
+  - index.js
+  - App.js
+  - index.css
+  - App.css
+- package-lock.json
+- package.json
