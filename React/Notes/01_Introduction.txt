@@ -1,0 +1,31 @@
+1. What is React?
+ - It's a open source JavaScript libarary for building User Interfaces.
+ - Not a framework.
+ - Focus on UI.
+ - Rich ecosystem.
+ - Primilary used for building Single Page Applications.
+
+2. Why learn React?
+  - Created and Maintained by Facebook.
+  - Huge Community Support
+  - In demand skillset
+  
+  Techinal Aspects of React?
+    - Component Based Architecture (Break down your application into small incapsulated components which can then compose to make more complex UI).
+    - Reusable components
+    - React is declarative (Tell React whay you want and React will build the UI) - React-DOM
+    - React will handle efficient updating and redenring of the components
+    - DOM updates are handled grasefully by React.
+
+3. Pre-requisites-
+  - HTML, CSS and JavaScript
+  - ES6
+  - JavaScript this keyword, map, filter and reduce
+  - JavaScript -> 
+    - let & const
+    - arrow function 
+    - template literals
+    - default paramter,
+    - object literal
+    - rest and spread operator
+    - destructuring
