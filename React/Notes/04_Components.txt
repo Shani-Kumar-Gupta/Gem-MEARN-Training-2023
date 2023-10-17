@@ -6,3 +6,6 @@
   - Two Types of Components:
     - Stateless Functional Component
     - Stateful Class Based Component
+
+Stateless Functional Components:
+- It's a normal JavaScript functions which optionally can receive the props (Object of Properties) and returs some piece of JSX which describe the UI.
