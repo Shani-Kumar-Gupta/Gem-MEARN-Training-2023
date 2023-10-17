@@ -1,0 +1,8 @@
+// React Components:
+- React flows the Component based achitecture
+- Component is the main building block for React having a part of UI which maintains the seprate logic.
+  - Describe the part of User Interface
+  - They are reusable and can be nested inside another Component
+  - Two Types of Components:
+    - Stateless Functional Component
+    - Stateful Class Based Component
