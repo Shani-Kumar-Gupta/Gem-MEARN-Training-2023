@@ -10,3 +10,7 @@ React Folder Structure-
   - App.css
 - package-lock.json
 - package.json
+
+// How the control flows when you run the application?
+- Initialy index.html file is getting served on browser
+- Then will provide the parent dom node to React to handle the Rendering process
