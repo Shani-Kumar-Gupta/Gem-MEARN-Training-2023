@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 const Greet = () => {
   return (
-    <div classNames='greet'>
+    <div classNames="greet">
       <h1>Hello Shani!</h1>
     </div>
   );
 };
 
-export default Greet;
+export default memo(Greet);

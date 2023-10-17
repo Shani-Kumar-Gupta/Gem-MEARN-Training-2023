@@ -9,3 +9,10 @@
 
 Stateless Functional Components:
 - It's a normal JavaScript functions which optionally can receive the props (Object of Properties) and returs some piece of JSX which describe the UI.
+
+Stateful Class Based Component:
+- It's a normal JavaScript ES6 class which can optionally receive the props (Object of Properties) and returs some piece of JSX which describe the UI. It must have render() method.
+- It also metain the private internal state.
+- To become the React Class, There are two simple steps:
+  - extends React.Component
+  - Has to implement render() method -> retuns some piece of JSX which describe the UI
