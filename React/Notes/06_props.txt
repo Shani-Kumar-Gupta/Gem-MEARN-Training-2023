@@ -1,0 +1,3 @@
+-> In React, Components are main building blocks and reusable components.
+-> To make a component dynamic and reusable, it should be configurable and for that props (Properties) comes into the picture.
+-> Props are used to pass data from parent components to the child components.
