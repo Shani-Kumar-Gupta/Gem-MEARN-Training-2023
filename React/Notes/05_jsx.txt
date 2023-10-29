@@ -1,0 +1,13 @@
+JSX:
+- JavaScript XML
+- It's a html like syntax.
+- It just a santactic sugar for the developer.
+- It's elegent syntax, easy to maintain and developer friendly.
+- We import React everytime while creating Component in React becuase JSX use it internally.
+
+JSX Differences-
+class --> className
+for --> htmlFor
+camelCase naming convention-
+  onclick --> onClick
+  tabindex --> tabIndex
