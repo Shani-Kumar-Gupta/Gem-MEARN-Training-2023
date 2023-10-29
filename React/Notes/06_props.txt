@@ -4,3 +4,5 @@
 
 -> To specify props for a component, we specify them as properties or attributes. (Imp.)
 -> Via props, we send some information from parent to child components.
+
+-> Props are immutable properties in React.

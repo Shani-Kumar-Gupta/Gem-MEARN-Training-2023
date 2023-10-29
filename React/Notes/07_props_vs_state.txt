@@ -1,0 +1,15 @@
+props vs. state-
+1. props get passed to the component from parent component
+   state is managed within the component
+
+2. props received as functional parameter
+   state is variable declaration in the functional body
+
+3. props are immutable.
+   state can be changed becuase it's managed within the component
+
+4. props - functional component
+   this.props - Class based component
+
+   useState Hook - funtional component
+   this.state - Class based component
