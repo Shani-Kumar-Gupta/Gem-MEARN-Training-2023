@@ -9,7 +9,11 @@ class Welcome extends React.Component {
   render() {
     return (
       <div className="welcome">
-        <h2>Welcome to React Shani!</h2>
+        <h2>
+          Welcome to React {this.props.greetPeopleName}! a.k.a.{' '}
+          {this.props.heroName}
+        </h2>
+        {this.props.children}
       </div>
     );
   }

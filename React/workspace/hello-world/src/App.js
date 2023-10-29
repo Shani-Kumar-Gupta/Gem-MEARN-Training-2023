@@ -6,8 +6,11 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
+      <Greet greetPeopleName='Shani' />
+      <Greet greetPeopleName='Priyanshu' />
+      <Welcome greetPeopleName='Shani' heroName='Batman' >
+        <button>Action</button>
+      </Welcome>
       <Hello />
     </div>
   );
