@@ -1,0 +1,12 @@
+React is a JavaScript libarary used to build UI interface and follow the component based architecture.
+
+1. Virtual DOM
+  -> React uses a Virtual DOM to update the UI.
+  -> The Virtual DOM is lightweigth in-memory representation of the Real DOM, which allows React to make changes to the UI without manipulating the actual DOM.
+  -> This makes update faster, as changing the virtual DOM is less expensive than changing the real DOM. 
+
+2. React Reconciliation Algorithm
+  -> The React Reconciliation algorithm works by comparing the current virtual DOM tree to the updated virtual DOM tree, and making the minimum number of changes necessary to bring the virtaul DOM in line with the updated state.
+
+3. React Fiber
+4. Tree diffing algorithm
