@@ -1,0 +1,21 @@
+1. In Class based component, state getting initialized in constructor.
+2. State is used to maintain the component state which describe the UI.
+3. Never ever update or alter state directly instead use this.setState({})
+4. setState({}) is async that's why always state updates later on once all the statement gets executed.
+
+5. In your application, if you want to execute certain statements once state is gets updated pass callback function as second parameter.
+this.setState({}, () => {
+  // statement to execute post state updated
+})
+
+6. incrementFive() {
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+  }
+
+  React, batches the multiple setState calls into a single update for better performance.
+
+7. Whenever, wants to update the state based on previous state, we need to pass function as an argument to setState Method.
