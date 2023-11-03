@@ -19,3 +19,6 @@ this.setState({}, () => {
   React, batches the multiple setState calls into a single update for better performance.
 
 7. Whenever, wants to update the state based on previous state, we need to pass function as an argument to setState Method.
+
+Destructuring: Destructuring is ES6 features in JavaScript, used to unpack values from arrays and properies from objects into distinct variables.
+Code Readibility Improves 
