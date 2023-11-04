@@ -6,13 +6,14 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
   return (
     <div className="App">
-      <Greet greetPeopleName='Shani' />
-      <Greet greetPeopleName='Priyanshu' />
-      <Welcome greetPeopleName='Shani' heroName='Batman' >
+      <Greet greetPeopleName="Shani" />
+      <Greet greetPeopleName="Priyanshu" />
+      <Welcome greetPeopleName="Shani" heroName="Batman">
         <button>Action</button>
       </Welcome>
       <Hello />
@@ -24,6 +25,8 @@ function App() {
       <EventBind />
       <hr />
       <ParentComponent />
+      <hr />
+      <ConditionalRendering />
     </div>
   );
 }
