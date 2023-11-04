@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Message />
       <hr />
       <Counter />
+      <hr />
+      <EventBind />
     </div>
   );
 }
