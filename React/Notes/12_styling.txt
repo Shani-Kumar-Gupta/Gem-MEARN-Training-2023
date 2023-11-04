@@ -1,0 +1,4 @@
+In React, we can style element using below ways-
+1. Regular CSS Stylesheet
+2. Inline CSS Style
+3. CSS module - filename.module.css
