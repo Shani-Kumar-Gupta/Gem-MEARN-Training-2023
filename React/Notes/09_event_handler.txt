@@ -1,1 +1,4 @@
 How to bind event handler in React?
+
+How Child component communicates with Parent component?
+-> Will pass function as a reference from parent component to child component as props.
