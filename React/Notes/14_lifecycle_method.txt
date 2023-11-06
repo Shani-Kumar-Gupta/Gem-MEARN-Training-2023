@@ -7,4 +7,8 @@ Four Phases:
 - Error Handling: When there is an error during rendering, in a lifecycle or in the custructor of any child.
 
 
-
+Mounting Phase lifecycle methods are:
+- constructor(props)
+- static getDerivedStateFromProps(props, state) - 
+- render() - Pure function or method (Return updated JSX with state and props)
+- componentDidMount() - call side effect (best place)

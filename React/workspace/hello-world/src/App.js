@@ -8,6 +8,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import Form from './components/Form';
+import MountingParent from './components/MountingParent';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <ConditionalRendering />
       <hr />
       <Form />
+      <hr />
+      <MountingParent />
     </div>
   );
 }
