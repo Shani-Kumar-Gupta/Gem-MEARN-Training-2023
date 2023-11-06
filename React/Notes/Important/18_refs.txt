@@ -1,0 +1,3 @@
+Refs is used to access DOM node directly from React.
+Use cases-
+1. Focus specific field bydefault

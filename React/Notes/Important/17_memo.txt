@@ -1,0 +1,3 @@
+React memo API: (Class based Pure Component same as memo)
+- Performance optimization
+- Memo is used in functional component to achive the same PureComponent functionality to avoid unneccesary re-renders of the comp.
