@@ -1,0 +1,9 @@
+Pure Component: A pure component implements shouldComponentUpdate with a shallow prop and state comparison.
+
+SC of prevState with currectState
+SC of prevProps with currentProps
+      |
+      |------> Difference ------> Re-render component
+
+* Why to use it?
+- Performance optimization
