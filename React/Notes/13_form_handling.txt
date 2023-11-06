@@ -1,0 +1,4 @@
+In regular HTML, form element like input, textarea and select are responsible on there own to handle the user input and update the respective values.
+
+What we wants?
+React needs to handle the forms element instance, such form element who's values handled or maintained by REact known as Controlled React Component.
