@@ -9,6 +9,7 @@ import ParentComponent from './components/ParentComponent';
 import ConditionalRendering from './components/ConditionalRendering';
 import Form from './components/Form';
 import MountingParent from './components/MountingParent';
+import Fragment from './components/Fragment';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       <Form />
       <hr />
       <MountingParent />
+      <hr />
+      <Fragment />
     </div>
   );
 }

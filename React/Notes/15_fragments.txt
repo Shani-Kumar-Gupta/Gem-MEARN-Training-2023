@@ -1,0 +1,5 @@
+Fragments is used to group numbers of child component or element without adding any new node to the DOM.
+<React.Fragment key={}></React.Fragment> // Only except the key attribute or props
+Shorthand: <></>
+
+If you want to avoid extra node on DOM which is not useful.
