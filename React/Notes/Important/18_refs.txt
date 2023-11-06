@@ -1,3 +1,9 @@
 Refs is used to access DOM node directly from React.
 Use cases-
 1. Focus specific field bydefault
+2. To get the input value
+
+Steps to achive functionality using ref-
+1. Create a refs
+2. Attach the created refs to the element - and to do that we have ref attribute
+3. Implement the functionality on inputRef - this.inputRef.current.focus()
